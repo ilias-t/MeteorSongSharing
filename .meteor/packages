@@ -5,11 +5,11 @@
 
 meteor-platform
 autopublish
-insecure
 less
 markdown
 showdown
 service-configuration
 accounts-twitter
 accounts-ui
+insecure
 

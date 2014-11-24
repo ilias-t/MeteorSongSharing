@@ -32,8 +32,6 @@ if (Meteor.isClient) {
   Template.tile.events({
     "click #penis": function(e) {
       Tiles.remove(this._id);
-      console.log(this);
-      diz = this;
     }
   });
 
