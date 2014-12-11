@@ -30,7 +30,7 @@ if (Meteor.isClient) {
     }
   });
   Template.tile.events({
-    "click #penis": function(e) {
+    "click #submit": function(e) {
       Tiles.remove(this._id);
     }
   });
