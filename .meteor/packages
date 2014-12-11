@@ -12,4 +12,6 @@ service-configuration
 accounts-twitter
 accounts-ui
 insecure
+bootstrap
+coffeescript
 
