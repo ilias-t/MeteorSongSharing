@@ -1,5 +1,3 @@
-Tiles = new Mongo.Collection("tiles");
-
 if (Meteor.isClient) {
   
   //Helpers
@@ -29,16 +27,11 @@ if (Meteor.isClient) {
       return false;
     }
   });
-  Template.tile.events({
+  Template.tileNew.events({
     "click #submit": function(e) {
       Tiles.remove(this._id);
+      // console.log("test");
     }
   });
 
-}
-
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
 }

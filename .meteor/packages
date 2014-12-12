@@ -5,13 +5,9 @@
 
 meteor-platform
 autopublish
-less
-markdown
-showdown
-service-configuration
-accounts-twitter
-accounts-ui
 insecure
-bootstrap
-coffeescript
+iron:router
+accounts-ui
+accounts-twitter
+less
 
