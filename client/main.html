@@ -6,12 +6,12 @@
   {{> header}}
   <div id="main" class="row-fluid">
     {{#if currentUser}}
-    <h1>render</h1>
     {{renderPage}}
     {{else}}
-      <p>please login</p>
+    <p>login</p>
     {{/if}}
   </div>
 </div>
-
 </body>
+
+<!-- TODO Get mongo data to front end. `db.tiles.find({})` works in mongo. Not being passed... -->
