@@ -9,6 +9,6 @@ insecure
 iron:router
 accounts-ui
 accounts-twitter
+nemo64:bootstrap
 less
-ian:bootstrap-3
 
