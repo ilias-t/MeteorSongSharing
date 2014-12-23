@@ -7,8 +7,8 @@ meteor-platform
 autopublish
 insecure
 iron:router
-accounts-ui
 accounts-twitter
 nemo64:bootstrap
 less
 
+accounts-ui-unstyled
