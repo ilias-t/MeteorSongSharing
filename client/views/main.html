@@ -5,13 +5,11 @@
 </head>
 <body>
 <div class="site-wrapper">
+  {{#if currentUser}}
   {{> header}}
+  {{/if}}
   <div id="main" class="row-fluid">
-    {{#if currentUser}}
     {{renderPage}}
-    {{else}}
-    <p>login</p>
-    {{/if}}
   </div>
 </div>
 </body>

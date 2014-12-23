@@ -1,5 +1,5 @@
 <template name="header">
-  <nav role="navigation" class="navbar navbar-default">
+  <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -18,7 +18,7 @@
         <li><a href="#">Messages</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">{{> loginButtons}}</a></li>
+        <li><a href="#" id="twitter-login">{{> loginButtons}}</a></li>
       </ul>
     </div>
   </nav>
